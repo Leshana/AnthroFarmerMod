@@ -7,17 +7,39 @@
 			"Description": "Species sprites to use for player farmers"
 		}
 	},
-	"Changes":
+	"Changes": 
 	[
 		{
-			"Action": "Load",
+			"Action": "EditImage",
 			"Target": "Characters/Farmer/farmer_base",
-			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_base.png"
+			"LogName": "Male Left 12 Columns",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_base.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672},
+			"ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672}
 		},
 		{
-			"Action": "Load",
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/farmer_base",
+			"LogName": "Male Right 6 Columns",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_base.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 96, "Height": 512},
+			"ToArea": { "X": 192, "Y": 0, "Width": 96, "Height": 512}
+		},
+		{
+			"Action": "EditImage",
+			"LogName": "Girl Left 12 Columns",
 			"Target": "Characters/Farmer/farmer_girl_base",
-			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_girl_base.png"
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_girl_base.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672},
+			"ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/farmer_girl_base",
+			"LogName": "Girl Right 6 Columns",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_girl_base.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 96, "Height": 512},
+			"ToArea": { "X": 192, "Y": 0, "Width": 96, "Height": 512}
 		},
 		{
 			"Action": "Load",
