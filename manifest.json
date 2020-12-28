@@ -1,0 +1,11 @@
+{
+  "Name": "Furry Player Mod",
+  "Author": "Leshana",
+  "Description": "Art by LackeDragon",
+  "Version": "1.2.1",
+  "UniqueID": "Leshana.FurryPlayer",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ "" ],
+}

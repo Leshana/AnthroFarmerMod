@@ -1,0 +1,28 @@
+{
+	"Format": "1.19.0",
+	"ConfigSchema": {
+		"FarmerSpecies": {
+			"AllowValues": "Fox, Wolf, Cat",
+			"Default": "Fox",
+			"Description": "Species sprites to use for player farmers"
+		}
+	},
+	"Changes":
+	[
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/farmer_base",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_base.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/farmer_girl_base",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/farmer_girl_base.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/{{FarmerSpecies}}/Characters/Farmer/hairstyles.png"
+		}
+	]
+}
